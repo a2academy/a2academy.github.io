@@ -21,6 +21,7 @@ header {
 
 .logo {
     font-size: 24px;
+    max-width: 200px; /* Limiting the maximum width */
 }
 
 nav ul {
