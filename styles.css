@@ -76,3 +76,23 @@ footer {
 .program p {
     line-height: 1.5;
 }
+/* New styles for scrolling banner */
+.scrolling-banner {
+    background-color: #336699; /* Dark bluish purple */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: scrollBanner 20s linear infinite;
+}
+
+@keyframes scrollBanner {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
