@@ -7,11 +7,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f8f0ff; /* Pale pinkish purple */
 }
 
 header {
-    background-color: #336699;
+    background-color: #854b8a; /* Dark bluish purple */
     color: #ffffff;
     padding: 20px;
     display: flex;
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #336699;
+    background-color: #854b8a; /* Dark bluish purple */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -54,7 +54,7 @@ footer {
 
 .login-menu a {
     color: #ffffff;
-    background-color: #336699;
+    background-color: #a2469a; /* Darker pinkish purple */
     padding: 8px 12px;
     border-radius: 5px;
     text-decoration: none;
@@ -62,7 +62,7 @@ footer {
 }
 
 .login-menu a:hover {
-    background-color: #265580;
+    background-color: #824085; /* Darker shade on hover */
 }
 
 .program {
